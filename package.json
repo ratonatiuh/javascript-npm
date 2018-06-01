@@ -1,0 +1,30 @@
+{
+  "name": "pruebanpm",
+  "version": "0.1.0",
+  "description": "Prueba de ratonatiuh y npm",
+  "main": "dist/src/prueba.js",
+  "scripts": {
+    "build": "babel src/prueba.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ratonatiuh/javascript-npm.git"
+  },
+  "keywords": [
+    "ratonatiuh",
+    "javascript"
+  ],
+  "author": "Carlos Rafael Jimenez Morales <ratonatiuh@gmail.com> (https://www.ratonatiuh.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ratonatiuh/javascript-npm/issues"
+  },
+  "homepage": "https://github.com/ratonatiuh/javascript-npm#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
